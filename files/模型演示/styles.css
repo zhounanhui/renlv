@@ -120,6 +120,7 @@
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:14px;
   color:#AAAAAA;
 }
 #u2 {
@@ -133,6 +134,7 @@
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:14px;
   color:#AAAAAA;
 }
 #u2 .text {
@@ -167,7 +169,7 @@
 #u4 {
   border-width:0px;
   position:absolute;
-  left:366px;
+  left:383px;
   top:665px;
   width:40px;
   height:24px;
@@ -202,7 +204,7 @@
 #u5 {
   border-width:0px;
   position:absolute;
-  left:366px;
+  left:383px;
   top:699px;
   width:40px;
   height:24px;
@@ -237,7 +239,7 @@
 #u6 {
   border-width:0px;
   position:absolute;
-  left:366px;
+  left:383px;
   top:733px;
   width:40px;
   height:24px;
@@ -272,7 +274,7 @@
 #u7 {
   border-width:0px;
   position:absolute;
-  left:366px;
+  left:383px;
   top:767px;
   width:40px;
   height:24px;
@@ -323,7 +325,7 @@
 #u8 {
   border-width:0px;
   position:absolute;
-  left:361px;
+  left:378px;
   top:605px;
   width:50px;
   height:50px;
@@ -937,7 +939,7 @@
   font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;
   font-weight:650;
   font-style:normal;
-  font-size:14px;
+  font-size:16px;
   color:#FFFFFF;
   text-align:left;
 }
@@ -971,7 +973,7 @@
   display:flex;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC', sans-serif;
   font-style:normal;
-  font-size:12px;
+  font-size:14px;
   color:#FFFFFF;
   text-align:left;
 }
@@ -135180,8 +135182,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:425px;
-  height:176px;
+  width:429px;
+  height:227px;
   background:inherit;
   background-color:rgba(85, 85, 85, 1);
   box-sizing:border-box;
@@ -135200,10 +135202,10 @@
 #u3822 {
   border-width:0px;
   position:absolute;
-  left:476px;
-  top:1px;
-  width:425px;
-  height:176px;
+  left:0px;
+  top:314px;
+  width:429px;
+  height:227px;
   display:flex;
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
