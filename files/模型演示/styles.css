@@ -4,7 +4,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:395px;
+  width:415px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -20,19 +20,19 @@
 #u0 {
   position:fixed;
   left:50%;
-  margin-left:-197.5px;
+  margin-left:-207.5px;
   top:50%;
-  margin-top:-384px;
-  width:395px;
-  height:768px;
+  margin-top:-424px;
+  width:415px;
+  height:848px;
 }
 #u0_state0 {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:395px;
-  height:768px;
+  width:415px;
+  height:848px;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
   -ms-overflow-y:hidden;
@@ -57,7 +57,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:395px;
+  width:415px;
   height:708px;
   background:inherit;
   background-color:rgba(85, 85, 85, 1);
@@ -79,7 +79,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:395px;
+  width:415px;
   height:708px;
   display:flex;
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
@@ -459,7 +459,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:395px;
+  width:415px;
   height:80px;
   background:inherit;
   background-color:rgba(242, 242, 242, 1);
@@ -483,8 +483,8 @@
   border-width:0px;
   position:absolute;
   left:0px;
-  top:708px;
-  width:395px;
+  top:768px;
+  width:415px;
   height:80px;
   display:flex;
   font-size:11px;
@@ -543,7 +543,7 @@
   border-width:0px;
   position:absolute;
   left:0px;
-  top:708px;
+  top:768px;
   width:93px;
   height:50px;
   display:flex;
@@ -577,7 +577,7 @@
   border-width:0px;
   position:absolute;
   left:33px;
-  top:715px;
+  top:775px;
   width:27px;
   height:23px;
   display:flex;
@@ -632,7 +632,7 @@
   border-width:0px;
   position:absolute;
   left:299px;
-  top:708px;
+  top:768px;
   width:96px;
   height:50px;
   display:flex;
@@ -663,7 +663,7 @@
   border-width:0px;
   position:absolute;
   left:336px;
-  top:715px;
+  top:775px;
   width:23px;
   height:23px;
   display:flex;
@@ -721,7 +721,7 @@
   border-width:0px;
   position:absolute;
   left:93px;
-  top:708px;
+  top:768px;
   width:93px;
   height:50px;
   display:flex;
@@ -755,7 +755,7 @@
   border-width:0px;
   position:absolute;
   left:126px;
-  top:715px;
+  top:775px;
   width:27px;
   height:23px;
   display:flex;
@@ -813,7 +813,7 @@
   border-width:0px;
   position:absolute;
   left:186px;
-  top:708px;
+  top:768px;
   width:93px;
   height:50px;
   display:flex;
@@ -847,7 +847,7 @@
   border-width:0px;
   position:absolute;
   left:219px;
-  top:715px;
+  top:775px;
   width:27px;
   height:23px;
   display:flex;
