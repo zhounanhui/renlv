@@ -413,7 +413,17 @@
                         break;
                 }
 
-                var onFlipShowComplete = function() {
+                var onFlipShowComplete = function () {
+                    // return the scroll position to the correct location after unexpected reset of the scroll to the top after multiple flip-animation compliting. RP-2192
+                    var preventNextScroll = function () {
+                        var preventFunc = function (e) {
+                            trapScroll();
+                            e.preventDefault();
+                            window.removeEventListener("scroll", preventFunc);
+                        }
+                        window.addEventListener("scroll", preventFunc);
+                    }
+
                     var trapScroll = _trapScrollLoc(parentId);
                     $ax.visibility.SetIdVisible(childId, true);
 
@@ -422,6 +432,7 @@
                     trapScroll();
 
                     onComplete();
+                    preventNextScroll();
                 };
 
                 innerContainer.css({
@@ -918,8 +929,7 @@
             var state = $(states[i]);
             locs[state.attr('id')] = { x: state.scrollLeft(), y: state.scrollTop() };
         }
-
-        var scrollFunc = function() {
+        return function() {
             for(var key in locs) {
                 var state = $jobj(key);
                 state.scrollLeft(locs[key].x);
@@ -928,17 +938,6 @@
             jWindow.scrollLeft(windowLoc.x);
             jWindow.scrollTop(windowLoc.y);
         };
-
-        // for some reason scroll can be set unexpectedly to the top of page when event with flip animation was triggered more then one time
-        // so added this hack to avoid such situation more info RP-2192
-        var scrollEventHandler = function() {
-            scrollFunc();
-            window.removeEventListener("scroll", scrollEventHandler);
-        }
-
-        window.addEventListener("scroll", scrollEventHandler);
-
-        return scrollFunc;
     }
 
     var _getCurrFocus = function () {

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="180px" height="46px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="233px" y="489px" width="180px" height="46px" filterUnits="userSpaceOnUse" id="filter233">
+      <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.2 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget234">
+      <path d="M 236.6591354779538 528.5  L 248.3591354779538 489.5  L 409.3408645220462 489.5  L 397.6408645220462 528.5  L 236.6591354779538 528.5  Z " fill-rule="nonzero" fill="#333333" stroke="none" />
+      <path d="M 236 529  L 248 489  L 410 489  L 398 529  L 236 529  Z M 248.7182709559076 490  L 237.3182709559076 528  L 397.2817290440924 528  L 408.68172904409244 490  L 248.7182709559076 490  Z " fill-rule="nonzero" fill="#7f7f7f" stroke="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -233 -489 )">
+    <use xlink:href="#widget234" filter="url(#filter233)" />
+    <use xlink:href="#widget234" />
+  </g>
+</svg>

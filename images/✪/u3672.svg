@@ -1,19 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="110px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter x="159px" y="134px" width="110px" height="110px" filterUnits="userSpaceOnUse" id="filter3839">
-      <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.2 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget3840">
-      <path d="M 214 135  C 241.44 135  263 156.56  263 184  C 263 211.44  241.44 233  214 233  C 186.56 233  165 211.44  165 184  C 165 156.56  186.56 135  214 135  Z " fill-rule="nonzero" fill="#666666" stroke="none" />
-      <path d="M 214 135  C 241.44 135  263 156.56  263 184  C 263 211.44  241.44 233  214 233  C 186.56 233  165 211.44  165 184  C 165 156.56  186.56 135  214 135  Z " stroke-width="2" stroke="#999999" fill="none" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -159 -134 )">
-    <use xlink:href="#widget3840" filter="url(#filter3839)" />
-    <use xlink:href="#widget3840" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="20px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -114 -302 )">
+    <path d="M 121.95967477524977 302.5  C 121.95967477524977 302.5  120.28960489827463 302.834013975395  120.28960489827463 302.834013975395  C 120.28960489827463 302.834013975395  114.56086363289651 312  114.56086363289651 312  C 114.56086363289651 312  120.28960489827463 321.165986024605  120.28960489827463 321.165986024605  C 120.28960489827463 321.165986024605  121.95967477524977 321.5  121.95967477524977 321.5  C 121.95967477524977 321.5  163.5 321.5  163.5 321.5  C 163.5 321.5  163.5 302.5  163.5 302.5  C 163.5 302.5  121.95967477524977 302.5  121.95967477524977 302.5  Z " fill-rule="nonzero" fill="#f2f2f2" stroke="none" />
+    <path d="M 121.95967477524977 302.5  C 121.95967477524977 302.5  120.28960489827463 302.834013975395  120.28960489827463 302.834013975395  C 120.28960489827463 302.834013975395  114.56086363289651 312  114.56086363289651 312  C 114.56086363289651 312  120.28960489827463 321.165986024605  120.28960489827463 321.165986024605  C 120.28960489827463 321.165986024605  121.95967477524977 321.5  121.95967477524977 321.5  C 121.95967477524977 321.5  163.5 321.5  163.5 321.5  C 163.5 321.5  163.5 302.5  163.5 302.5  C 163.5 302.5  121.95967477524977 302.5  121.95967477524977 302.5  Z " stroke-width="1" stroke="#e4e4e4" fill="none" />
   </g>
 </svg>

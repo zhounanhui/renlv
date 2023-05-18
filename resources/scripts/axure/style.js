@@ -1547,12 +1547,13 @@
             var styleProperties = _getCssStyleProperties(style);
             var container = $('#' + id);
             var newSize = { width: container[0].offsetWidth, height: container[0].offsetHeight };
+            var hasLineHeight = !!container.css('line-height');
             container.find('*').each(function(index, element) {
                 _applyCssProps(element, styleProperties);
                 var width = element.offsetWidth + padding.left + padding.right;
                 var height = element.offsetHeight + padding.top + padding.bottom;
-                if (width > newSize.width) newSize.width = width;
-                if (height > newSize.height) newSize.height = height;
+                if(width > newSize.width) newSize.width = width;
+                if(!hasLineHeight && height > newSize.height) newSize.height = height;
             });
             return newSize;
         });
