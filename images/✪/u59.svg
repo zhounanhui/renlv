@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="428px" height="280px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="214" y1="509" x2="214" y2="789" id="LinearGradient7253">
-      <stop id="Stop7254" stop-color="#1d1d1d" offset="0" />
-      <stop id="Stop7255" stop-color="#343434" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="214" y1="509" x2="214" y2="789" id="LinearGradient7575">
+      <stop id="Stop7576" stop-color="#1d1d1d" offset="0" />
+      <stop id="Stop7577" stop-color="#343434" offset="1" />
     </linearGradient>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="214" y1="509" x2="214" y2="789" id="LinearGradient7256">
-      <stop id="Stop7257" stop-color="#1d1d1d" offset="0" />
-      <stop id="Stop7258" stop-color="#343434" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="214" y1="509" x2="214" y2="789" id="LinearGradient7578">
+      <stop id="Stop7579" stop-color="#1d1d1d" offset="0" />
+      <stop id="Stop7580" stop-color="#343434" offset="1" />
     </linearGradient>
   </defs>
   <g transform="matrix(1 0 0 1 0 -509 )">
-    <path d="M 0.5 509.5  L 427.5 509.5  L 427.5 788.5  L 0.5 788.5  L 0.5 509.5  Z " fill-rule="nonzero" fill="url(#LinearGradient7253)" stroke="none" />
-    <path d="M 0.5 509.5  L 427.5 509.5  L 427.5 788.5  L 0.5 788.5  L 0.5 509.5  Z " stroke-width="1" stroke="url(#LinearGradient7256)" fill="none" />
+    <path d="M 0.5 509.5  L 427.5 509.5  L 427.5 788.5  L 0.5 788.5  L 0.5 509.5  Z " fill-rule="nonzero" fill="url(#LinearGradient7575)" stroke="none" />
+    <path d="M 0.5 509.5  L 427.5 509.5  L 427.5 788.5  L 0.5 788.5  L 0.5 509.5  Z " stroke-width="1" stroke="url(#LinearGradient7578)" fill="none" />
   </g>
 </svg>
