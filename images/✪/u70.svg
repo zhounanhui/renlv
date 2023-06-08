@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="352px" height="42px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="428px" height="280px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="38px" y="389px" width="352px" height="42px" filterUnits="userSpaceOnUse" id="filter7581">
-      <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="0.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4980392156862745 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget7582">
-      <path d="M 40 390  L 388 390  L 388 428  L 40 428  L 40 390  Z " fill-rule="nonzero" fill="#000000" stroke="none" fill-opacity="0" />
-    </g>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="214" y1="509" x2="214" y2="789" id="LinearGradient9607">
+      <stop id="Stop9608" stop-color="#1d1d1d" offset="0" />
+      <stop id="Stop9609" stop-color="#343434" offset="1" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="214" y1="509" x2="214" y2="789" id="LinearGradient9610">
+      <stop id="Stop9611" stop-color="#1d1d1d" offset="0" />
+      <stop id="Stop9612" stop-color="#343434" offset="1" />
+    </linearGradient>
   </defs>
-  <g transform="matrix(1 0 0 1 -38 -389 )">
-    <use xlink:href="#widget7582" filter="url(#filter7581)" />
-    <use xlink:href="#widget7582" />
+  <g transform="matrix(1 0 0 1 0 -509 )">
+    <path d="M 0.5 509.5  L 427.5 509.5  L 427.5 788.5  L 0.5 788.5  L 0.5 509.5  Z " fill-rule="nonzero" fill="url(#LinearGradient9607)" stroke="none" />
+    <path d="M 0.5 509.5  L 427.5 509.5  L 427.5 788.5  L 0.5 788.5  L 0.5 509.5  Z " stroke-width="1" stroke="url(#LinearGradient9610)" fill="none" />
   </g>
 </svg>
