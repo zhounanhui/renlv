@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="18px" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(1 0 0 1 -25 -673 )">
-    <path d="M 14.996999999999998 7.497000000000001  C 14.996999999999998 12.828  9.3315 16.6155  7.850999999999998 17.514000000000003  C 7.635794022868349 17.646631841594605  7.364205977131644 17.646631841594605  7.148999999999997 17.514  C 5.668499999999997 16.614  0.002999999999997005 12.828  0.002999999999997005 7.497000000000001  C 0.002999999999996339 3.356521230518542  3.3595212305185376 0  7.499999999999996 0  C 11.640478769481458 0  14.996999999999996 3.356521230518542  14.996999999999996 7.497000000000001  Z M 7.5 10.5  C 9.15685424949238 10.5  10.5 9.15685424949238  10.5 7.5  C 10.5 5.84314575050762  9.15685424949238 4.5  7.5 4.5  C 5.84314575050762 4.5  4.5 5.84314575050762  4.5 7.5  C 4.5 9.15685424949238  5.84314575050762 10.5  7.5 10.5  Z " fill-rule="nonzero" fill="#07b373" stroke="none" transform="matrix(1 0 0 1 25 673 )" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="428px" height="281px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="662" y1="509" x2="662" y2="790" id="LinearGradient442">
+      <stop id="Stop443" stop-color="#1d1d1d" offset="0" />
+      <stop id="Stop444" stop-color="#343434" offset="1" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="662" y1="509" x2="662" y2="790" id="LinearGradient445">
+      <stop id="Stop446" stop-color="#1d1d1d" offset="0" />
+      <stop id="Stop447" stop-color="#343434" offset="1" />
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1 0 0 1 -448 -509 )">
+    <path d="M 448.5 509.5  L 875.5 509.5  L 875.5 789.5  L 448.5 789.5  L 448.5 509.5  Z " fill-rule="nonzero" fill="url(#LinearGradient442)" stroke="none" />
+    <path d="M 448.5 509.5  L 875.5 509.5  L 875.5 789.5  L 448.5 789.5  L 448.5 509.5  Z " stroke-width="1" stroke="url(#LinearGradient445)" fill="none" />
   </g>
 </svg>

@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="18px" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(1 0 0 1 -25 -673 )">
-    <path d="M 14.996999999999998 7.497000000000001  C 14.996999999999998 12.828  9.3315 16.6155  7.850999999999998 17.514000000000003  C 7.635794022868349 17.646631841594605  7.364205977131644 17.646631841594605  7.148999999999997 17.514  C 5.668499999999997 16.614  0.002999999999997005 12.828  0.002999999999997005 7.497000000000001  C 0.002999999999996339 3.356521230518542  3.3595212305185376 0  7.499999999999996 0  C 11.640478769481458 0  14.996999999999996 3.356521230518542  14.996999999999996 7.497000000000001  Z M 7.5 10.5  C 9.15685424949238 10.5  10.5 9.15685424949238  10.5 7.5  C 10.5 5.84314575050762  9.15685424949238 4.5  7.5 4.5  C 5.84314575050762 4.5  4.5 5.84314575050762  4.5 7.5  C 4.5 9.15685424949238  5.84314575050762 10.5  7.5 10.5  Z " fill-rule="nonzero" fill="#07b373" stroke="none" transform="matrix(1 0 0 1 25 673 )" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="44px" height="44px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="576px" y="569px" width="44px" height="44px" filterUnits="userSpaceOnUse" id="filter448">
+      <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.2 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget449">
+      <path d="M 39.98423005234772 0  L 0 39.833284880050506  L 0 21.586984296085852  L 21.66450765387056 0  L 39.98423005234772 0  Z " fill-rule="nonzero" fill="#f59a23" stroke="none" transform="matrix(1 0 0 1 577 569 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -576 -569 )">
+    <use xlink:href="#widget449" filter="url(#filter448)" />
+    <use xlink:href="#widget449" />
   </g>
 </svg>
