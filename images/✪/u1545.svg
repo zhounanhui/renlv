@@ -1,22 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="44px" height="25px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <mask fill="white" id="clip11483">
-      <path d="M 0.40476190476181273 12.083333333333286  L 0.40476190476181273 0  L 34 1.25  L 34 14.583333333333286  L 0.40476190476181273 12.083333333333286  Z " fill-rule="evenodd" />
-    </mask>
-    <filter x="244px" y="696px" width="44px" height="25px" filterUnits="userSpaceOnUse" id="filter11484">
-      <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget11485">
-      <path d="M 0.40476190476181273 12.083333333333286  L 0.40476190476181273 0  L 34 1.25  L 34 14.583333333333286  L 0.40476190476181273 12.083333333333286  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0.6" transform="matrix(1 0 0 1 249 696 )" />
-      <path d="M 0.40476190476181273 12.083333333333286  L 0.40476190476181273 0  L 34 1.25  L 34 14.583333333333286  L 0.40476190476181273 12.083333333333286  Z " stroke-width="2" stroke="#000000" fill="none" stroke-opacity="0.8" transform="matrix(1 0 0 1 249 696 )" mask="url(#clip11483)" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -244 -696 )">
-    <use xlink:href="#widget11485" filter="url(#filter11484)" />
-    <use xlink:href="#widget11485" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="12px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -406 -172 )">
+    <path d="M 0.6507812500000003 1.2871153846153849  L 5.118203124999999 6  L 0.6507812500000003 10.712884615384615  L 1.4627265625000008 11.568230769230771  L 6.335546875000001 6.428884615384613  C 6.443547890633457 6.315237142891528  6.504245204701225 6.16092533527056  6.504245204701225 5.999999999999998  C 6.504245204701225 5.839074664729437  6.443547890633457 5.6847628571084705  6.335546875000001 5.571115384615383  L 1.4627265625000008 0.43176923076923046  L 0.6507812500000003 1.2871153846153849  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 406 172 )" />
   </g>
 </svg>
